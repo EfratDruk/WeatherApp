@@ -34,8 +34,8 @@ export const DisplayCity: React.FC<{ city: CityWeather }> = ({ city }) => {
             boxShadow: "0 8px 25px rgba(0, 0, 0, 0.25)",
           },
           textAlign: "center",
-          backgroundColor: "#f0f4f8", // צבע רקע עדין ונעים לעין
-          color: "#333", // טקסט כהה לקריאות
+          backgroundColor: "#f0f4f8",
+          color: "#333", 
           padding: 2,
         }}
       >
