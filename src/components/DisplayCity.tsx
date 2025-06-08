@@ -1,10 +1,10 @@
 import React from "react";
-import type { CityWeather } from "../model/cityweather";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import { getIcon } from "../utils/weatherIcon";
 import { Stack, styled } from "@mui/material";
+import type { CityWeather } from "../model/cityweather";
 
 export const DisplayCity: React.FC<{ city: CityWeather }> = ({ city }) => {
   const srcImg = getIcon(city.temp);

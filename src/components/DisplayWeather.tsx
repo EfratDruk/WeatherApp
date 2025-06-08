@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { DisplayCity } from "./DisplayCity";
 import type { CityWeather } from "../model/cityweather";
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import { fetchWeatherData } from "../service/getWeather";
 
 export const DisplayWeather: React.FC = () => {
